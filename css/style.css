@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug #app_header{
+    height: 2.5rem;
+    background-color: lightblue;
+    border: 1px solid black;
+    
+}
+.debug > header > div {
+    height: 1.5rem;
+    background-color: orange;
+    border: 1px dashed black;
+    margin-top: 0.5rem;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 0.2rem;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.logo, .login{
+    width: 20%;
+    border: 1px dashed black;
+    margin: auto;
+}
+
+.menu{
+    width: 60%;
+    text-align: center;
+}
+
+.ta-left{
+    text-align: left;
+} 
+
+.ta-right{
+    text-align: right;
+}
