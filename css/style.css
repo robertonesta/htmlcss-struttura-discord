@@ -57,4 +57,12 @@
     background-color: #ee82ee;
     border: 1px dashed black;
     height: 16rem;
+   text-align: center;
+}
+/* main */
+
+.debug .section_first{
+    height: 26rem;
+    background-color: white;
+    border: 1px solid black;
 }
