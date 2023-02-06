@@ -44,3 +44,17 @@
 .ta-right{
     text-align: right;
 }
+
+.debug .banner{
+    height: 20rem;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.first-text {
+    width: 70%;
+    margin: auto;
+    background-color: #ee82ee;
+    border: 1px dashed black;
+    height: 16rem;
+}
