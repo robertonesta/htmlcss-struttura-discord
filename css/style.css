@@ -5,7 +5,6 @@
 }
 
 .debug #app_header{
-    height: 2.5rem;
     background-color: lightblue;
     border: 1px solid black;
     
@@ -61,8 +60,67 @@
 }
 /* main */
 
-.debug .section_first{
+.debug > main .section_first{
     height: 26rem;
     background-color: white;
     border: 1px solid black;
+    width: 100%;
+}
+
+.debug > main .section_second{
+    height: 26rem;
+    background-color: #d3d3d3;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.debug > main .section_third{
+    height: 26rem;
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+
+.content1, .content2, .content3{
+    width: 70%;
+    margin: 2rem auto;
+
+}
+
+#left{
+    background-color: #1e90ff;
+    float: left;
+    width: calc((100% / 12) * 8);
+    border: 1px dashed black;
+}
+
+#right{
+    background-color: #ffc0cb;
+    width: calc((100% / 12) * 4);
+    border: 1px dashed black;    
+}
+
+#left, #right{
+    display: inline-block;
+    height: 22rem;
+}
+
+#leftgrey{
+    background-color: #ffc0cb;
+    width: calc((100% / 12) * 4);
+    border: 1px dashed black;
+}
+
+#rightgrey{
+    background-color: #1e90ff;
+    float: right;
+    width: calc((100% / 12) * 8);
+    border: 1px dashed black;
+}
+
+#leftgrey, #rightgrey{
+    display: inline-block;
+    height: 22rem;
 }
