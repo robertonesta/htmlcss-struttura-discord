@@ -16,7 +16,7 @@
     margin-top: 0.5rem;
 }
 .container {
-    width: 70%;
+    width: 62.5%;
     margin: auto;
     padding: 0.2rem;
 }
@@ -44,14 +44,8 @@
     text-align: right;
 }
 
-.debug .banner{
-    height: 20rem;
-    background-color: blue;
-    border: 1px solid black;
-}
-
 .first-text {
-    width: 70%;
+    width: 48%;
     margin: auto;
     background-color: #ee82ee;
     border: 1px dashed black;
@@ -59,6 +53,12 @@
    text-align: center;
 }
 /* main */
+
+.debug .banner{
+    height: 20rem;
+    background-color: blue;
+    border: 1px solid black;
+}
 
 .debug > main .section_first{
     height: 26rem;
@@ -81,46 +81,61 @@
     width: 100%;
 }
 
+.debug > main .section_fourth{
+    height: 44rem;
+    background-color: #d3d3d3;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.debug .green_section{
+    background-color: #228b22;
+    width: 62.5%;
+    border: 1px dashed black;
+    height: 40rem;
+    margin: 2rem auto;
+}
 
 
 .content1, .content2, .content3{
-    width: 70%;
+    width: 62.5%;
     margin: 2rem auto;
-
 }
 
-#left{
+.left{
     background-color: #1e90ff;
     float: left;
     width: calc((100% / 12) * 8);
     border: 1px dashed black;
 }
 
-#right{
+.right{
     background-color: #ffc0cb;
     width: calc((100% / 12) * 4);
     border: 1px dashed black;    
 }
 
-#left, #right{
+.left, .right{
     display: inline-block;
     height: 22rem;
 }
 
-#leftgrey{
+.leftgrey{
     background-color: #ffc0cb;
     width: calc((100% / 12) * 4);
-    border: 1px dashed black;
 }
 
-#rightgrey{
+.rightgrey{
     background-color: #1e90ff;
     float: right;
     width: calc((100% / 12) * 8);
+}
+
+.leftgrey, .rightgrey{
+    display: inline-block;
+    height: 22rem;
     border: 1px dashed black;
 }
 
-#leftgrey, #rightgrey{
-    display: inline-block;
-    height: 22rem;
-}
+
+
